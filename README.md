@@ -1,5 +1,20 @@
 # cloudflare-bundle-example
+This is a minmal repro of fumadocs with openapi, built for cloudflare with openext.
 
+run:
+
+```
+npm install
+```
+```
+npm run build:cloudflare
+```
+
+then analyse `.open-next/server-functions/default/handler.mjs.meta.json` with [https://esbuild.github.io/analyze/]()
+
+
+
+###
 This is a Next.js application generated with
 [Create Fumadocs](https://github.com/fuma-nama/fumadocs).
 
